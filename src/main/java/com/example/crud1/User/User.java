@@ -1,10 +1,13 @@
 package com.example.crud1.User;
 
 import java.util.Date;
-
+// e9e2cc34-c538-41ec-a5b0-a1f36e7b9e15
 public class User {
     private Integer id;
+
     private String name;
+
+    
     private Date dob;
     
     
