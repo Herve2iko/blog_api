@@ -37,4 +37,13 @@ public class UserServices {
         }
         return null;
     }
+    public User deleteUser(int id){
+        for(User user:UserList){
+            if(user.getId() == id){
+                UserList.remove(user);
+                return user;
+            }
+        }
+        return null;
+    }
 }
